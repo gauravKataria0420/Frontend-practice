@@ -1,0 +1,109 @@
+body{
+    background-color: #ffffff !important;
+    overflow-y: auto;
+}
+.btn-outline-success{
+    border: none !important;
+    /* padding: 5px 10px !important; */
+    border-bottom: 1px solid royalblue !important;
+}
+.btn-outline-success:hover{
+    background-color: royalblue ;
+}
+.navbar-light .navbar-toggler{
+    border: none;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.dropdown-menu{
+    border: none;
+}
+.dropdown-item{
+    padding-left: 0 !important;
+}
+.carousel{
+    position:  relative !important;
+}
+.carousel-item img{
+    /* width: auto !important; */
+    height: 50vh!important;
+    background-position: center !important ;
+    object-fit: cover !important;
+    opacity: .89;
+}
+
+.carousel-caption{
+    position: absolute !important;
+    top: 32% !important;
+    bottom: 35% !important;
+}
+.btn-danger{
+    padding: 5px 20px !important;
+}
+.teddy-content p{
+    line-height: 1.5;
+}
+.category-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product-items{
+    margin-bottom: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    /* position: fixed; */
+    padding: 20px;
+    width: 100%;
+    bottom: 0%;
+    left: 0%;
+    background-color: #000;
+    color: white;
+}
+ 
+
+/* media  */
+@media(max-width : 825px){
+    
+    .carousel-caption{
+        position: absolute !important;
+        top: 35% !important;
+        bottom: 50% !important;
+    }
+    .teddy img{
+        width: 350px ;
+        /* margin-top: 50px; */
+    }
+
+}
+@media(max-width : 768px){
+    
+    .carousel-caption{
+        position: absolute !important;
+        top: 32% !important;
+        bottom: 32% !important;
+    }
+ 
+
+}
+@media(max-width : 500px){
+    .carousel-item img{
+        height: 335px !important;
+    }
+    .teddy img{
+        width: 300px;
+    }
+    .carousel-caption{
+        position: absolute !important;
+        top: 19% !important;
+        bottom: 32% !important;
+    }
+
+}
