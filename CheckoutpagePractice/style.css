@@ -1,0 +1,138 @@
+body {
+	font-family:Roboto;
+	font-weight:300;
+	font-size:16px;
+	color:#777;
+	line-height:1.7;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family:Roboto;
+	font-weight:700;
+}
+h1.latestitems {
+	font-size:22px;
+	line-height:28px;
+	color:#444;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	margin-top:0;
+}
+.toparea {
+	background:#fff;
+	/* margin-top:-100px; */
+	padding-top:30px;
+}
+.wow-hr {
+	position:relative;
+	font-size:0;
+	text-align:center;
+	height:24px;
+	margin:auto;
+	margin-top:2%;
+	margin-bottom:3%;
+	width:50%;
+	padding:2px 0;
+	overflow:hidden;
+	clear:both;
+}
+.wow-hr-h:before {
+	left:-13px;
+	margin-left:-50%;
+	background:#f7f7f7;
+}
+.wow-hr-h:after {
+	left:13px;
+	margin-right:-50%;
+}
+.wow-hr-h:before,.wow-hr-h:after {
+	display:inline-block;
+	content:"";
+	height:1px;
+	width:50%;
+	margin-top:9px;
+	vertical-align:top;
+	position:relative;
+	background-color:#e4e4e4;
+}
+.wow-hr-h i {
+	font-size:16px;
+	line-height:20px;
+	height:20px;
+	width:20px;
+	vertical-align:top;
+	text-align:center;
+	color:#e4e4e4;
+}
+#edd_checkout_cart a.edd-cart-saving-button,th input[type=submit].edd-submit {
+	text-decoration:none;
+	padding:4px 10px;
+	text-transform:none;
+	font-size:14px;
+	background:#fff;
+	color:#444;
+	border:1px solid #eee;
+	font-weight:500;
+}
+#edd_checkout_cart input.edd-item-quantity {
+	padding-left:10px;
+}
+#edd_checkout_cart .edd_cart_header_row th {
+	background:#fafafa;
+	padding:1.387em;
+}
+.edd-submit.button {
+	font-size:20px;
+	border:0px;
+	padding:7px 20px;
+	text-decoration:none;
+	color:#444;
+	text-align:center;
+	font-weight:400;
+	background:#fff;
+	text-transform:uppercase;
+	border-radius:0;
+	border-bottom:5px solid rgba(0,0,0,0.1);
+	background-color:#00bba7;
+	color:#fff;
+}
+.edd-submit.button,.edd-submit.button:visited {
+	background-color:#00bba7;
+	color:#fff;
+	border-bottom:5px solid rgba(0,0,0,0.1);
+}
+.edd-submit.button:hover {
+	opacity:0.8;
+}
+.edd-submit.button.active,.edd-submit.button:focus,.edd-submit.button:hover {
+	color:#fff;
+}
+#edd-purchase-button,.edd-submit,input[type=submit].edd-submit {
+	background-color:#00bba7;
+	color:#fff;
+	border:0;
+	border-radius:0;
+	border-bottom:5px solid rgba(0,0,0,0.1);
+	font-size:17px;
+	font-weight:700;
+}
+#edd_checkout_form_wrap fieldset {
+	border:1px solid #eee;
+	padding:1.387em;
+	margin:0 0 21px;
+}
+#edd_checkout_form_wrap label {
+	font-weight:700;
+	display:block;
+	position:relative;
+	line-height:100%;
+	font-size:95%;
+	margin:0 0 5px;
+}
+#edd_checkout_form_wrap input[type=text],#edd_checkout_form_wrap input[type=email],#edd_checkout_form_wrap input[type=password],#edd_checkout_form_wrap input[type=tel],#edd_checkout_form_wrap textarea {
+	padding:4px 6px;
+}
+#edd_checkout_form_wrap input.edd-input,#edd_checkout_form_wrap textarea.edd-input {
+	display:inline-block;
+	width:100%;
+	border:1px solid #fff;
+}
